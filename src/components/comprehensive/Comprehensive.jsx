@@ -12,16 +12,16 @@ const Comprehensive = () => {
       </div>
       <div className="relative py-36">
         {/* main div */}
-        <div className="grid lg:grid-cols-5 gap-6 md:grid-cols-3 grid-cols-2">
+        <div className="grid lg:grid-cols-5 gap-6  md:grid-cols-3 grid-cols-2">
           {/* fast div */}
-          <div className="border rounded-2xl bg-[#FBFBFB]  h-[256px] lg:h-[270px] md:h-[256px] lg:-mt-32 md:-mt-20 -mt-16">
+          <div className="border rounded-2xl w-[180px] bg-[#FBFBFB]  h-[286px] lg:h-[280px] md:h-[256px] lg:-mt-32 md:-mt-20 -mt-16">
             <div className=" px-5 py-7">
               <p className=" text-3xl font-bold mb-3"> 90 %</p>
               <p>Patient satisfaction rate, reflecting our commitment.</p>
               <div className="flex justify-center mb-4">
                 <svg
                   width="90"
-                  height="131"
+                  height="120"
                   viewBox="0 0 131 131"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -148,7 +148,7 @@ const Comprehensive = () => {
             </div>
           </div>
           {/* thard div card */}
-          <div className="border bg-[#FBFBFB]  rounded-2xl h-[140px]">
+          <div className="border bg-[#FBFBFB] md:mb-0 mb-11 rounded-2xl h-[140px]">
             <div className=" px-5  py-1">
               <p className=" text-3xl flex items-center gap-3 font-bold mb-2">
                 {" "}
@@ -162,34 +162,35 @@ const Comprehensive = () => {
               <div className=" ">
                 <p>Over 20,000 Patient</p>
 
-                <div className="flex mt-4">
-                  <div className="w-9 -ml-2">
+                <div className="flex mt-4 ">
+                  <div className="w-9 h-9 ">
                     <img
-                      src="https://i.ibb.co/gdq43Kh/images-3.jpg"
-                      className="rounded-full"
+                      src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                      className="rounded-3xl"
                       alt="Avatar 1"
                     />
                   </div>
-                  <div className="w-9 -ml-2">
+                  <div className="w-9 h-9 ">
                     <img
-                      src="https://i.ibb.co/Yh6KSBk/images-2.jpg"
-                      className="rounded-full"
-                      alt="Avatar 2"
+                      src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                      className="rounded-3xl"
+                      alt="Avatar 1"
                     />
                   </div>
-                  <div className="w-9 -ml-2">
+                  <div className="w-9 h-9 ">
                     <img
-                      src="https://i.ibb.co/gdq43Kh/images-3.jpg"
-                      className="rounded-full"
-                      alt="Avatar 3"
+                      src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                      className="rounded-3xl"
+                      alt="Avatar 1"
                     />
                   </div>
+                 
                 </div>
               </div>
             </div>
           </div>{" "}
           {/* four div card */}
-          <div className="border bg-[#fafaf4f3]  rounded-2xl h-[140px]">
+          <div className="border bg-[#fafaf4f3]   rounded-2xl h-[140px]">
             <div className=" px-5 py-1">
               <p className=" text-3xl font-bold mb-2"> $5000</p>
               <div className=" flex gap-3">
@@ -285,7 +286,7 @@ const Comprehensive = () => {
               </div>
             </div>
           </div>
-          <div className="border rounded-2xl bg-[#FBFBFB]  h-[256px] lg:h-[270px] md:h-[256px] lg:-mt-32 md:-mt-20 -mt-16">
+          <div className="border rounded-2xl bg-[#FBFBFB]  h-[256px] lg:h-[270px] md:h-[256px] lg:-mt-32  md:-mt-12 -mt-16">
             <div className=" px-5 py-7">
               <p className=" text-3xl font-bold mb-3"> 50+</p>
               <p>Free lession video for patient</p>
